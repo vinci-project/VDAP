@@ -1,0 +1,1307 @@
+{
+  "nodes": [
+    {
+      "id": "fb99337c-1bbb-4e45-8e52-2f951776f313",
+      "endpoint": "http://localhost:9000",
+      "lastShakeAt": 1543341506409
+    },
+    {
+      "id": "040c5160-8a22-4a0b-9aa8-efa15614ed03",
+      "endpoint": "http://localhost:9001",
+      "lastShakeAt": 1543341506413
+    }
+  ],
+  "reports": [
+    {
+      "id": "DZpu_ECW0",
+      "type": "delete",
+      "user": "cn=root",
+      "createdAt": 1541674856578,
+      "data": {
+        "dn": "cn=test04, ou=users, dc=com, o=example"
+      }
+    },
+    {
+      "id": "50_8uOS3_",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674883460,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "lalala"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "grCJklqmkG",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674883464,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "*"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "SJiWLuV5SY",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674883467,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "name": "tonys"
+          }
+        }
+      }
+    },
+    {
+      "id": "3DkIx79He",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674974669,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "lalala"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "tg3eSAE7OO",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674974673,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "*"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "LxM0EWSxfq",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541674974687,
+      "data": {
+        "dn": "cn=test01, ou=users, dc=com, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "name": "tonyshy"
+          }
+        }
+      }
+    },
+    {
+      "id": "um9EPumSH",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541675102493,
+      "data": {
+        "dn": "dc=cd, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "foo": [
+              "bar"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "tCmSf9iuDj",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1541675102497,
+      "data": {
+        "dn": "dc=cd, o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": "fooPersonsd"
+          }
+        }
+      }
+    },
+    {
+      "id": "R292xr9aw",
+      "type": "create",
+      "user": "cn=root",
+      "createdAt": 1542036717539,
+      "data": {
+        "dn": "dc=mocha,o=example",
+        "entry": {
+          "foo": "bar",
+          "objectclass": [
+            "CDAP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iqia8Bmcbt",
+      "type": "delete",
+      "user": "cn=root",
+      "createdAt": 1542036717545,
+      "data": {
+        "dn": "dc=mocha,o=example"
+      }
+    },
+    {
+      "id": "0qcv8WR5I",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032836822,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1lIjdxk8TM",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032836826,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "iUKWkpXvVh",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032836829,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "GCV9vnqYq5",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032836832,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": [
+              "bar"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "Q4ZLmthG0t",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032836835,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "add",
+          "modification": {
+            "dec": "dec"
+          }
+        }
+      }
+    },
+    {
+      "id": "0OmWJeMxX",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032897657,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "0_MwRc475D",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032897967,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "CRZ_CWOsO_",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032897982,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "t8GN66kjcl",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032897987,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "RCgI_KVrl",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032941663,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "TaYm3IEUDA",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032941988,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "PhGVZf-szc",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032941994,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "spn_-BVmAX",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032941997,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "HigXh44HE",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032961214,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "RNhOFaf34",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032961534,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "zBTtKFuke-",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032961540,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "eJ-rQRuBqN",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543032961548,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "j8_Dllurh",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033011644,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "k9uqlBofS4",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033011978,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "6rqrHiKr63",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033011983,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "rF9SpuvM-_",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033011988,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "tAdRKrG3G",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033068750,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "lCVMP808BB",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033068757,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "xjNLL5IuMy",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033068761,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "jRVgpek6-0",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033068768,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "zELAJDFRp",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033083407,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "DLwjaeK4p",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033083713,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "fUdBavaJS6",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033083718,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "TylNsPJMLm",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033083722,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "UR-D5Qa2E",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033121525,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "8rmo6Ft-EL",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033121850,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "_hxmWpoHXi",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033121853,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "rmBdGJmBWa",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033121858,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "P8BuPnhkO",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033249422,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "Mu-g2qFhs",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033249744,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "a0ytA4PVOM",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033249750,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "eyyqpCbhom",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033249756,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "566gtgLMY",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033526055,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "gt16hkqyFD",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033526380,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "88FNjiY058",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033526386,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "yfkbiyfl15",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033526391,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "wlLYs3qP0",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033582224,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "0B-MmSmoQ",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033582545,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "LW5No3Bynb",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033582552,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "Oai5Dw8W4B",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033582556,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "tAfrP0vmb",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033663822,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "yMH7PX7KEF",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033664142,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "jsrIJwqhYk",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033664149,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "RxZ31qTDbV",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033664154,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "bars"
+          }
+        }
+      }
+    },
+    {
+      "id": "Xztv5D9m_",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033736198,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "qHgQG3uoMq",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033736514,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "h1S32k3uV",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033736519,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "q5zmPn05F1",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033736525,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "barss"
+          }
+        }
+      }
+    },
+    {
+      "id": "JKiVjbxvi",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033783943,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "LRRxtw6scg",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033784265,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "RwbxoHPLyR",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033784271,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "DzKu8WhQkP",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033784277,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "barse"
+          }
+        }
+      }
+    },
+    {
+      "id": "OI9nJ8UYS",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033881022,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "NTotoHP4x-",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033881345,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "d-qWfak-9J",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033881351,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "cGKsJsz23p",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543033881356,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "barses"
+          }
+        }
+      }
+    },
+    {
+      "id": "ymiynUIey",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543034143811,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "cn": [
+              "foo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "aEhVv9wWT0",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543034143817,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "email": [
+              "foo@bar.com",
+              "foo1@bar.com"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "cBNlmYVop6",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543034143823,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "objectclass": [
+              "CDAP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "WovcWmYhQP",
+      "type": "update",
+      "user": "cn=root",
+      "createdAt": 1543034143827,
+      "data": {
+        "dn": "o=example",
+        "change": {
+          "operation": "replace",
+          "modification": {
+            "sn": "barsesd"
+          }
+        }
+      }
+    },
+    {
+      "id": "PVltF1JZI",
+      "type": "modify",
+      "createdAt": 1543073051940,
+      "data": {
+        "dn": "o=example",
+        "changes": [
+          {
+            "modification": {
+              "vals": [
+                "foo"
+              ],
+              "type": "cn"
+            },
+            "operation": "replace"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6Fd_aOtDPN",
+      "type": "modify",
+      "createdAt": 1543073051948,
+      "data": {
+        "dn": "o=example",
+        "changes": [
+          {
+            "modification": {
+              "vals": [
+                "foo@bar.com",
+                "foo1@bar.com"
+              ],
+              "type": "email"
+            },
+            "operation": "replace"
+          }
+        ]
+      }
+    }
+  ]
+}

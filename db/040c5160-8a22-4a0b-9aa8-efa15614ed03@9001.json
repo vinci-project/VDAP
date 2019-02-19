@@ -1,0 +1,82 @@
+{
+  "o=example": {
+    "cn": [
+      "foo"
+    ],
+    "email": [
+      "foo@bar.com",
+      "foo1@bar.com"
+    ],
+    "objectclass": [
+      "CDAP"
+    ],
+    "sn": [
+      "barsesd"
+    ]
+  },
+  "dc=com, o=example": {
+    "cn": [
+      "foo"
+    ],
+    "email": [
+      "foo@bar.com",
+      "foo1@bar.com"
+    ],
+    "objectclass": [
+      "fooPersons"
+    ],
+    "sn": [
+      "bar"
+    ]
+  },
+  "dc=cn, o=example": {
+    "foo": [
+      "bar"
+    ],
+    "objectclass": [
+      "fooPersons"
+    ]
+  },
+  "dc=cd, o=example": {
+    "foo": [
+      "bar"
+    ],
+    "objectclass": [
+      "fooPersonsd"
+    ]
+  },
+  "ou=users, dc=com, o=example": {
+    "objectclass": [
+      "fooPerson"
+    ]
+  },
+  "dc=good, dc=ok, o=example": {
+    "objectclass": [
+      "*"
+    ]
+  },
+  "cn=test02, ou=users, dc=com, o=example": {
+    "email": [
+      "hutong"
+    ],
+    "objectclass": [
+      "*"
+    ]
+  },
+  "cn=test01, ou=users, dc=com, o=example": {
+    "email": [
+      "lalala"
+    ],
+    "objectclass": [
+      "*"
+    ],
+    "name": [
+      "tonyshy"
+    ]
+  },
+  "cn=test03, ou=users, dc=com, o=example": {
+    "objectclass": [
+      "*"
+    ]
+  }
+}
